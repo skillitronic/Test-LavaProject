@@ -1,0 +1,52 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "GamePlay",
+            "id": "83568aa0-0296-4377-9a31-1c1dccb3a9f9",
+            "actions": [
+                {
+                    "name": "LeftButtonInteract",
+                    "type": "Button",
+                    "id": "3ab689e9-7cd2-4395-b9f5-d8c08e0ebb30",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MousePosition",
+                    "type": "Value",
+                    "id": "e79d7870-3f45-4ba5-8e05-e930872cddcf",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "83752f49-0a77-48f7-884f-87a9abdf7200",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftButtonInteract",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cfa3e903-8db9-4cf9-aa63-aafdc4dfcad9",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
